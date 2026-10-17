@@ -1,0 +1,2 @@
+Le programme ambassadeur contient maintenant le formulaire public et les menus Pages CMS : Candidatures, Ambassadeurs et Recompenses.
+Les candidatures arrivent par e-mail puis sont ajoutees et validees manuellement dans Pages CMS.

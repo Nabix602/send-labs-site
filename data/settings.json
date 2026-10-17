@@ -1,0 +1,11 @@
+{
+  "promoCode": "SEND10",
+  "promoPercent": 10,
+  "freeShippingQuantity": 2,
+  "tickerMessages": [
+    "LIVRAISON OFFERTE DES 2 ARTICLES",
+    "-10 % AVEC LE CODE SEND10",
+    "FABRIQUE DANS LES YVELINES"
+  ],
+  "contactEmail": "contact@send-labs.eu.org"
+}

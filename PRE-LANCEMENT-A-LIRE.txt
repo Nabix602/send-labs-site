@@ -1,0 +1,7 @@
+MODE PRE-LANCEMENT ACTIVE
+
+Les visiteurs ne voient que la page "Marque en developpement".
+Les anciennes pages publiques redirigent automatiquement vers l'accueil.
+Pages CMS continue de fonctionner sur https://app.pagescms.org.
+Les produits, images, ambassadeurs et reglages restent dans GitHub pour preparer le lancement.
+Pour rouvrir la boutique plus tard, il faudra remettre les pages boutique et panier depuis une sauvegarde precedente.

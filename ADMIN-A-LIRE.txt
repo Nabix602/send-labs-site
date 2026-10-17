@@ -1,0 +1,17 @@
+INTERFACE ADMIN SEND LABS
+
+Depot configure : Nabix602/send-labs-site
+Adresse future : /admin/
+
+Le formulaire Decap CMS est installe avec :
+- ajout, modification et suppression des produits ;
+- import des images vers assets/images ;
+- stock, prix, categories et visibilite ;
+- ajout facultatif de fichiers 3D dans assets/3d.
+
+IL RESTE UN REGLAGE OBLIGATOIRE :
+- configurer le service OAuth GitHub ;
+- puis remplacer VOTRE-SERVICE-OAUTH.example dans admin/config.yml.
+
+Sans OAuth, la page /admin/ s'affichera, mais la connexion GitHub ne pourra pas aboutir.
+Ne jamais mettre un mot de passe directement dans un fichier HTML.

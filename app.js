@@ -5,7 +5,7 @@ const getCart=()=>JSON.parse(localStorage.getItem('sendlabs_cart')||'{}');
 const setCart=c=>{localStorage.setItem('sendlabs_cart',JSON.stringify(c));updateCount()};
 const updateCount=()=>{let n=Object.values(getCart()).reduce((a,b)=>a+b,0);document.querySelectorAll('.cart-count').forEach(x=>x.textContent=n)};
 function toast(t){const e=document.getElementById('toast');if(!e)return;e.textContent=t;e.classList.add('show');setTimeout(()=>e.classList.remove('show'),1800)}
-async function products(){return fetch(PRODUCTS_URL).then(r=>r.json())}
+async function products(){const d=await fetch(PRODUCTS_URL).then(r=>r.json());return (Array.isArray(d)?d:d.products).filter(p=>p.visible!==false)}
 async function add(id){let c=getCart();c[id]=(c[id]||0)+1;setCart(c);toast('Produit ajouté au panier')}
 function card(p){return `<article class="product-card"><img src="/${p.image}" alt="${p.name}"><div class="body"><small>${p.category}</small><h3>${p.name}</h3><p>${p.short}</p><div class="row"><strong>${money(p.price)}</strong><button class="dark add-cart" data-id="${p.id}">AJOUTER</button></div></div></article>`}
 async function renderProducts(){let ps=await products();let f=document.getElementById('featured-products'),a=document.getElementById('all-products');if(f)f.innerHTML=ps.slice(0,3).map(card).join('');if(a)a.innerHTML=ps.map(card).join('');document.querySelectorAll('.add-cart').forEach(b=>b.onclick=()=>add(b.dataset.id))}

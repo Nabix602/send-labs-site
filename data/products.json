@@ -1,59 +1,69 @@
-[
-  {
-    "id": "send-cage",
-    "name": "Send Cage",
-    "price": 24.9,
-    "category": "Porte-gourde",
-    "image": "assets/images/send-cage.jpg",
-    "short": "Porte-gourde de 28 g avec intégration AirTag invisible.",
-    "features": [
-      "28 g",
-      "AirTag invisible",
-      "Fabriqué dans les Yvelines",
-      "Bidons 500 à 750 ml"
-    ],
-    "stock": 12
-  },
-  {
-    "id": "carte-25",
-    "name": "Carte cadeau 25 €",
-    "price": 25,
-    "category": "Carte cadeau",
-    "image": "assets/images/gift-card.jpg",
-    "short": "Carte cadeau numérique valable sur la boutique.",
-    "features": [
-      "Envoi numérique",
-      "Sans expiration",
-      "Cumulable"
-    ],
-    "stock": 999
-  },
-  {
-    "id": "carte-50",
-    "name": "Carte cadeau 50 €",
-    "price": 50,
-    "category": "Carte cadeau",
-    "image": "assets/images/gift-card.jpg",
-    "short": "Le choix idéal pour plusieurs accessoires.",
-    "features": [
-      "Envoi numérique",
-      "Sans expiration",
-      "Cumulable"
-    ],
-    "stock": 999
-  },
-  {
-    "id": "carte-100",
-    "name": "Carte cadeau 100 €",
-    "price": 100,
-    "category": "Carte cadeau",
-    "image": "assets/images/gift-card.jpg",
-    "short": "Pour une expérience Send Labs complète.",
-    "features": [
-      "Envoi numérique",
-      "Sans expiration",
-      "Cumulable"
-    ],
-    "stock": 999
-  }
-]
+{
+  "products": [
+    {
+      "id": "send-cage",
+      "name": "Send Cage",
+      "price": 24.9,
+      "category": "Porte-gourde",
+      "image": "assets/images/send-cage.jpg",
+      "short": "Porte-gourde de 28 g avec intégration AirTag invisible.",
+      "features": [
+        "28 g",
+        "AirTag invisible",
+        "Fabriqué dans les Yvelines",
+        "Bidons 500 à 750 ml"
+      ],
+      "stock": 12,
+      "visible": true,
+      "model3d": ""
+    },
+    {
+      "id": "carte-25",
+      "name": "Carte cadeau 25 €",
+      "price": 25,
+      "category": "Carte cadeau",
+      "image": "assets/images/gift-card.jpg",
+      "short": "Carte cadeau numérique valable sur la boutique.",
+      "features": [
+        "Envoi numérique",
+        "Sans expiration",
+        "Cumulable"
+      ],
+      "stock": 999,
+      "visible": true,
+      "model3d": ""
+    },
+    {
+      "id": "carte-50",
+      "name": "Carte cadeau 50 €",
+      "price": 50,
+      "category": "Carte cadeau",
+      "image": "assets/images/gift-card.jpg",
+      "short": "Le choix idéal pour plusieurs accessoires.",
+      "features": [
+        "Envoi numérique",
+        "Sans expiration",
+        "Cumulable"
+      ],
+      "stock": 999,
+      "visible": true,
+      "model3d": ""
+    },
+    {
+      "id": "carte-100",
+      "name": "Carte cadeau 100 €",
+      "price": 100,
+      "category": "Carte cadeau",
+      "image": "assets/images/gift-card.jpg",
+      "short": "Pour une expérience Send Labs complète.",
+      "features": [
+        "Envoi numérique",
+        "Sans expiration",
+        "Cumulable"
+      ],
+      "stock": 999,
+      "visible": true,
+      "model3d": ""
+    }
+  ]
+}

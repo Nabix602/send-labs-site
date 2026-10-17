@@ -37,3 +37,7 @@ A COMPLETER AVANT VENTE
 - Prix et stocks définitifs
 - Vraies photos haute qualité
 - Configuration Stripe et livraison
+
+LOGOS
+- assets/logo/send-labs-symbol.png
+- assets/logo/send-labs-full.png

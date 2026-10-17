@@ -1,0 +1,8 @@
+INTERFACE GRAPHIQUE PAGES CMS
+
+Dans https://app.pagescms.org :
+- Produits : nom, prix, categorie, photo, description, caracteristiques, stock, visibilite, modele 3D.
+- Reglages boutique : code promo, pourcentage, seuil de livraison offerte, messages du bandeau, e-mail.
+
+Les images vont dans assets/images et les fichiers 3D dans assets/3d.
+Chaque sauvegarde est envoyee sur GitHub, puis Vercel redeploie automatiquement.

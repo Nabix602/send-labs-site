@@ -1,0 +1,13 @@
+INTERFACE GRAPHIQUE SANS PROJET OAUTH
+
+1. Envoie tout le contenu de ce dossier sur GitHub.
+2. Va sur https://app.pagescms.org
+3. Clique sur la connexion GitHub.
+4. Autorise Pages CMS a acceder au depot Nabix602/send-labs-site.
+5. Selectionne le depot puis la branche main.
+6. Le menu Produits permet de modifier le catalogue et d'importer les images.
+
+Le fichier .pages.yml a la racine configure automatiquement l'interface.
+Les images sont enregistrees dans assets/images.
+Les fichiers 3D sont enregistres dans assets/3d.
+Aucun nouveau projet Vercel ou serveur OAuth personnel n'est necessaire.
